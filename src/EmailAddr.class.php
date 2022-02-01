@@ -1,4 +1,9 @@
 <?php
+/**
+ * @author https://github.com/timmyRS/PHPMailServ
+ * @author SMG smg38@yandex.ru
+ * @version 1.0 2.2.22
+ */
 class EmailAddr
 {
 	public $name;

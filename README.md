@@ -162,3 +162,6 @@ sudo tcpdump -i lo -n  port 25 | sed -e 's/Flag.*length//g'
 ```bash
 sudo tcpdump -i eth0 -n  port 25 | sed -e 's/Flag.*length//g'
 ```
+
+  <h6><i>@author</i> SMG smg38@yandex.ru
+  <h6><i>@version</i> 1.0 <b>2.2.22</b>

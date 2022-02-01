@@ -1,7 +1,10 @@
 <?php
-
-//namespace Snipworks\Smtp;
-
+/**
+ * @author https://github.com/snipworks/php-smtp
+ * @author SMG smg38@yandex.ru
+ * @version 1.0 2.2.22
+ */
+ 
 /**
  * Send email class using SMTP Authentication
  *

@@ -1,4 +1,8 @@
 <?php
+/**
+ * @author SMG smg38@yandex.ru
+ * @version 1.0 2.2.22
+ */
 if(empty($argv))
 {
 	die("ERROR: Please run this script using the `php run.php`-command in your shell.");

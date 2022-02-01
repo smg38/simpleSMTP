@@ -1,10 +1,11 @@
 <?php
-
+/**
+ * @author SMG smg38@yandex.ru
+ * @version 1.0 2.2.22
+ */
 require  "../src/EmailSender.php";
-//use Snipworks\Smtp\Email;
 function me_send($mail,$txt)
 {
-    #echo "$txt\n";
     if($mail->send()){
         echo "Success!\n";
     } else {
@@ -17,7 +18,7 @@ function me_send($mail,$txt)
 $flag=[true,true,true];
 $flag=[false,false,true]; 
 if ($flag[0]){
-    $mail = new Email('127.0.0.1', 25,5,5,'user3'); //smtp.example.com@example.com
+    $mail = new Email('127.0.0.1', 25,5,5,'user3');
     $mail->setLogin('user3@example.com','123456' );#'MTIzNDU2'
     $mail->addTo('user1@example.com', 'Example Receiver');
     $mail->setFrom('user3@example.com', 'Example Sender');
@@ -29,7 +30,7 @@ if ($flag[0]){
 }
 // Test blacklist #2
 if ($flag[1]){
-    $mail = new Email('127.0.0.1', 25,5,5,'user'); //smtp.example.com@example.com
+    $mail = new Email('127.0.0.1', 25,5,5,'user');
     #$mail->setLogin('user3@example.com','123456' );#'MTIzNDU2'
     $mail->addTo('user1@example.com', 'Example Receiver');
     $mail->setFrom('spammer@localhost', 'Example Spammer');
