@@ -1,0 +1,4 @@
+From: me@myhost.com
+To: user@example.com
+Hi, this is my message, and I'm sending it to you!
+.

@@ -1,0 +1,27 @@
+{
+	"motd"		: "You have accessed some server",
+	"hostname"	: "some.server",
+	"bind" 		: "0.0.0.0",
+	"port" 		: 25,
+	"size"		: 10240000,
+	"loglevel"	:"verbose",
+	"users": {
+		"user3@example.com": {
+			"folder": "example",
+			"auth": "MTIzNDU2"
+		},
+		"*@example.com": {			
+			"folder": "example_com"
+		},
+		"user@*": {
+			"auth": "MTIzNDU2"
+		},
+		"*@*": {
+			"folder": "wildcard"
+		}
+	},
+	"sender_blacklist": [
+		"spammer@localhost",
+		"wildcard@localhost"
+	]
+}
